@@ -1,0 +1,84 @@
+main {
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: #9e9da2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin-bottom: 4.5rem;
+    padding-left: 1.1rem;
+    width: 85%;
+}
+
+/* атомарные классы */
+.fz-22 {
+    font-size: 1.37rem;
+}
+
+.banner {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.download {
+    display: inline-flex;
+    margin-left: 1.1rem;
+    /* margin-right: 1.1rem; */
+}
+
+.header-1-word {
+    color: #75bf7a;
+}
+
+.card-1 {
+    display: inline-block;
+    width: 75%;
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 4rem;
+    margin-left: 4.5rem;
+    margin-bottom: 4.5rem;
+    position: relative;
+}
+
+.header {
+    color: #75bf7a;
+    font-size: 5.5rem;
+    line-height: 7.4rem;
+}
+
+.header-text {
+    display: inline-block;
+    color: #000000;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-left: 2.5rem;
+    width: 15rem;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text p {
+    width: 24rem;
+    height: 2.9rem;
+    color: #9e9da2;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.card-image {
+    position: relative;
+    left: 4.5rem;
+}
