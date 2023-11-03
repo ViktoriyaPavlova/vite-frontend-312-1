@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clients-container {
+    max-width: 1440px;
+    height: 610px;
+    background: #8c30f5;
+    margin: 20px auto;
+}
+
+.section-clients-title {
+    padding-top: 80px;
+}
+
+.clients-title {
+    display: inline-block;
+    width: 730px;
+    color: var(--default-white, #ffffff);
+    font-family: "Manrope", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-left: 165px;
+}
+
+.clients-mark {
+    float: right;
+    margin-top: -32px;
+    margin-right: 96px;
+}
+
+.clients-descr {
+    margin-left: 165px;
+    position: relative;
+}
+
+.clients-text {
+    display: inline-block;
+    width: 540px;
+    height: 220px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-top: 32px;
+}
+
+.clients-text-2 {
+    position: absolute;
+    left: 570px;
+}
+
+.clients-text-title {
+    color: #18191f;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.clients-text-paragr {
+    color: #18191f;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+.clients-text-icon::after,
+.clients-text-icon::before {
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    border-radius: 3px;
+    left: 260px;
+    bottom: -9px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+}
+
+.author {
+    display: flex;
+}
+
+.clients-author {
+    display: flex;
+    align-items: center;
+    margin-left: 325px;
+    margin-top: 28px;
+}
+
+.clients-author-descr {
+    margin-left: 16px;
+}
+
+.clients-author-name {
+    color: #ffffff;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.clients-author-prof {
+    color: #ffffff;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.clients-author-avatar {
+    margin-left: 31px;
+}
